@@ -5,29 +5,32 @@ html{
 body{
     width: 414px;
     margin: 0;
-    overflow: hidden;
 }
 
 .pagina{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    position: relative;
+    width: 414px;
     background: #E5E5E5;
     overflow: hidden;
 }
 /**********************BARRA SUPERIOR********************/
 .barra-superior{
-    width: 100%;
+    width: 414px;
     height: 92px;
+    position: fixed;
+    top: 0;
     background: #CF2B2B;
     padding-top: 8px;
-    padding-left: 21px;
     padding-bottom: 8px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
 }
 .barra-superior div{
     font-family: 'Righteous', cursive;
     color: #FFFFFF;
+    margin-left: 19px;
 }
 .titulo{
     font-size: 44px;
@@ -42,15 +45,17 @@ body{
     background: #E5E5E5;
     width: 100%;
     padding-left: 19px;
+    margin-top: 114px;
+    margin-bottom: 114px;
 }
 .bloco-itens{
-    margin-top: 27px;
+    margin-top: 30px;
 }
 .bloco-titulo{
     font-family: 'Righteous', cursive;
     font-size: 26px;
     color: #333333;
-    margin-bottom: 19px;
+    margin-bottom: 10px;
 }
 .bloco-rolagem{
     display: flex;
@@ -99,6 +104,9 @@ body{
 .barra-inferior{
     display: flex;
     justify-content: center;
+    width: 414px;
+    position: fixed;
+    bottom: 0;
     font-family: 'Roboto', sans-serif;
     background: #FFFFFF;
     margin-top: 16px;
