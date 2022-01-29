@@ -24,22 +24,22 @@
             <div class="conteudo-principal">
                 <div class="bloco-itens">
                     <div class="bloco-titulo">Primeiro, seu prato</div>
-                    <div class="bloco-rolagem">
-                        <div class="item">
+                    <div class="bloco-rolagem pratos">
+                        <div class="item prato-1" onclick="selecionar('pratos', 'prato-1')">
                             <img src="imagens/frango.png">
                             <div class="nome-item">Frango Yin Yang</div>
                             <div class="descricao-item">Um pouco de batata,</div>
                             <div class="descricao-item">um pouco de salada</div>
                             <div class="preco-item">R$ 25,40</div>
                         </div>
-                        <div class="item">
+                        <div class="item prato-2" onclick="selecionar('pratos', 'prato-2')">
                             <img src="imagens/peixe.jpg">
                             <div class="nome-item">Peixe Frito</div>
                             <div class="descricao-item">Peixe na brasa</div>
                             <div class="descricao-item">com alface</div>
                             <div class="preco-item">R$ 14,90</div>
                         </div>
-                        <div class="item">
+                        <div class="item prato-3" onclick="selecionar('pratos', 'prato-3')">
                             <img src="imagens/salada.jpg">
                             <div class="nome-item">Salada Sortida</div>
                             <div class="descricao-item">Salada com legumes</div>
@@ -50,21 +50,21 @@
                 </div>
                 <div class="bloco-itens">
                     <div class="bloco-titulo">Agora, sua bebida</div>
-                    <div class="bloco-rolagem">
-                        <div class="item">
+                    <div class="bloco-rolagem bebidas">
+                        <div class="item bebida-1" onclick="selecionar('bebidas', 'bebida-1')">
                             <img src="imagens/coca.jpg">
                             <div class="nome-item">Coquinha gelada</div>
                             <div class="descricao-item">Coca 350ml</div>
                             <div class="preco-item">R$ 4,90</div>
                         </div>
-                        <div class="item">
+                        <div class="item bebida-2" onclick="selecionar('bebidas', 'bebida-2')">
                             <img src="imagens/fanta.png">
                             <div class="nome-item">Fanta</div>
                             <div class="descricao-item">Fanta gelada</div>
                             <div class="descricao-item">350ml</div>
                             <div class="preco-item">R$ 3,70</div>
                         </div>
-                        <div class="item">
+                        <div class="item bebida-3" onclick="selecionar('bebidas', 'bebida-3')">
                             <img src="imagens/sprite.jpg">
                             <div class="nome-item">Sprite</div>
                             <div class="descricao-item">Refrigerante de limão</div>
@@ -75,20 +75,20 @@
                 </div>
                 <div class="bloco-itens">
                     <div class="bloco-titulo">Por fim, sua sobremesa</div>
-                    <div class="bloco-rolagem">
-                        <div class="item">
+                    <div class="bloco-rolagem sobremesas">
+                        <div class="item sobremesa-1" onclick="selecionar('sobremesas', 'sobremesa-1')">
                             <img src="imagens/pudin.jpg">
                             <div class="nome-item">Pudim</div>
                             <div class="descricao-item">Pudim tradicional</div>
                             <div class="preco-item">R$ 2,00</div>
                         </div>
-                        <div class="item">
+                        <div class="item sobremesa-2" onclick="selecionar('sobremesas', 'sobremesa-2')">
                             <img src="imagens/coco.jpg">
                             <div class="nome-item">Doce de côco</div>
                             <div class="descricao-item">Gelado e narural</div>
                             <div class="preco-item">R$ 1,40</div>
                         </div>
-                        <div class="item">
+                        <div class="item sobremesa-3" onclick="selecionar('sobremesas', 'sobremesa-3')">
                             <img src="imagens/sorvete.jpg">
                             <div class="nome-item">Sorvete</div>
                             <div class="descricao-item">Sabores variados</div>
@@ -106,5 +106,7 @@
                 </div>
             </div>
         </div>
+
+        <script src="scrypt.js"></script>
     </body>
 </html>
