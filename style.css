@@ -1,0 +1,120 @@
+html{
+    display: flex;
+    justify-content: center;
+}
+body{
+    width: 414px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.pagina{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #E5E5E5;
+    overflow: hidden;
+}
+/**********************BARRA SUPERIOR********************/
+.barra-superior{
+    width: 100%;
+    height: 92px;
+    background: #CF2B2B;
+    padding-top: 8px;
+    padding-left: 21px;
+    padding-bottom: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.barra-superior div{
+    font-family: 'Righteous', cursive;
+    color: #FFFFFF;
+}
+.titulo{
+    font-size: 44px;
+}
+.sub-titulo{
+    font-size: 18px;
+}
+
+/**********************CONTEUDO PRINCIPAL****************/
+.conteudo-principal{
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+    width: 100%;
+    padding-left: 19px;
+}
+.bloco-itens{
+    margin-top: 27px;
+}
+.bloco-titulo{
+    font-family: 'Righteous', cursive;
+    font-size: 26px;
+    color: #333333;
+    margin-bottom: 19px;
+}
+.bloco-rolagem{
+    display: flex;
+    overflow-x: scroll;
+    margin-right: 19px;
+}
+.bloco-rolagem::-webkit-scrollbar {
+    display: none;
+  }
+.item{
+    width: 172px;
+    height: 190px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin-right: 16px;
+    padding: 14px;
+}
+.item img{
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+.nome-item{
+    color: #333333;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.descricao-item{
+    font-size: 15px;
+    font-weight: 300;
+    color: #A6A6A6;
+}
+.preco-item{
+    color: #000000;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+
+/************************BARRA INFERIOR*******************/
+.barra-inferior{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+    margin-top: 16px;
+}
+.fechar-pedido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 364px;
+    height: 61px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    background: #CBCBCB;
+    border-radius: 50px;
+    font-size: 20px;
+
+}
