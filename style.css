@@ -131,3 +131,7 @@ body{
     font-size: 20px;
 
 }
+.botao-habilitado{
+    background: #32B72F;
+    cursor: pointer;
+}

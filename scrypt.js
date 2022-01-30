@@ -45,5 +45,14 @@ function selecionar(classe, item){
 
         teste2.innerHTML = (precoSobremesa-(2)).toFixed(2)
     }
+
+    habilitarBotao()
 }
 
+function habilitarBotao(){
+    if(precoPrato!==0 && precoBebida!==0 && precoSobremesa!==0){
+        const botao = document.querySelector('.fechar-pedido')
+        botao.classList.add("botao-habilitado")
+        botao.innerHTML = "Fechar pedido"
+    }
+}
