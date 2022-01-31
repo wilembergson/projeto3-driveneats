@@ -22,20 +22,16 @@ function selecionar(classe, item){
 
     if(classe === "pratos"){
         nomePrato = document.querySelector(`.${classe} .${item} .nome-item`).innerHTML
-        
         const testeMeio = document.querySelector(`.${classe} .${item} .preco-item`).innerHTML
         precoPrato = parseFloat(testeMeio.substring(3).replace(",", "."))
-        teste1.innerHTML = precoPrato
 
     }else if(classe === "bebidas"){
         nomeBebida = document.querySelector(`.${classe} .${item} .nome-item`).innerHTML
-        teste2.innerHTML = nomeBebida
         const testeMeio = document.querySelector(`.${classe} .${item} .preco-item`).innerHTML
         precoBebida = parseFloat(testeMeio.substring(3).replace(",", "."))
 
     }else if(classe === "sobremesas"){
         nomeSobremesa = document.querySelector(`.${classe} .${item} .nome-item`).innerHTML
-        teste3.innerHTML = nomeSobremesa
         const testeMeio = document.querySelector(`.${classe} .${item} .preco-item`).innerHTML
         precoSobremesa = parseFloat(testeMeio.substring(3).replace(",", "."))
         
