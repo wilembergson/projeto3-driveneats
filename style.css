@@ -141,9 +141,24 @@ body{
     background: #CBCBCB;
     border-radius: 50px;
     font-size: 20px;
-
+}
+.barra-inferior a{
+    text-decoration: none;
 }
 .botao-habilitado{
     background: #32B72F;
     cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.testes{
+    display: flex;
+    justify-content: space-around;
 }
